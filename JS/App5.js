@@ -10,9 +10,9 @@ function App(){
 	}
 	return(
 		<>
-			<button>-</button>
-			<span>0</button>
-			<button>+</button>
+			<button onClick = {decrement}>-</button>
+			<span>{count}</button>
+			<button onClick = {increment}>+</button>
 		</>
 
 		)
