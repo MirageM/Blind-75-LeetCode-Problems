@@ -11,9 +11,9 @@ function App(){
 	}
 	return(
 		<>
-			<button onClick = {increment} >-</button>
+			<button onClick = {decrement}>-</button>
 			<span>{count}</span>
-			<button onClick = {decrement} >+</button>
+			<button onClick = {increment}>+</button>
 		</>
 		)
 }
