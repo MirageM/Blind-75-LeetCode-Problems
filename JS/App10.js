@@ -15,7 +15,6 @@ function App(){
 		<button onClick = {increment}>+</button>
 		</>
 		)
-
 }
 
 export default App;
