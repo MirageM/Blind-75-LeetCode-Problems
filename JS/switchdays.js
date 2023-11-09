@@ -20,4 +20,7 @@ switch(day){
         break;
     case 'Dimanche':
         console.log("Demain nous serons Lundi");
+        break;
+    default:
+        console.log("Erreur de saisie");
 }
