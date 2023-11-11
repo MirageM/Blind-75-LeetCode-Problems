@@ -4,6 +4,10 @@ clothes.push('blue t-shirt'); // 2nd item of clothing
 clothes.push('yellow t-shirt'); // 3rd item of clothing
 clothes.push('slippers'); // 4th item of clothing
 clothes.push('old jeans'); // 5th item of clothing
+console.log("Clothes Before: ", clothes);
 clothes.pop();
 clothes.push('green scarf');
 console.log(clothes[2]);
+
+// Array
+console.log('Clothes After: ', clothes);
