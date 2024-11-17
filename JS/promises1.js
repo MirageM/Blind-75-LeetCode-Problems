@@ -1,5 +1,5 @@
-let p = new Promise((resolve, reject) => {
-  let a = 1 + 2;
+let p = new Promises((resolve, reject) => {
+  a = 1 + 2;
   if (a == 3) {
     resolve("Success");
   } else {
